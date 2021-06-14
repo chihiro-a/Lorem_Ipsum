@@ -104,6 +104,10 @@ footer {
 
 .production-group {
   display: flex;
+  flex-wrap: wrap;
+  width: 920px;
+  margin: 0 auto;
+  padding-bottom: 90px;
 }
 
 .production {
@@ -115,16 +119,19 @@ footer {
   background-image: url(img2/sketch.jpg);
   background-size: cover;
   background-position: center;
+  margin-bottom: 10px;
 }
 
 .bg2 {
-  background-image: url(img2/talk.jpg);
+  background-image: url(img2/websuku.png);
   background-size: cover;
   background-position: center;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .bg3 {
-  background-image: url(img2/webcamp-mother.png);
+  background-image: url(img2/write.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -136,13 +143,15 @@ footer {
 }
 
 .bg5 {
-  background-image: url(img2/websuku.png);
+  background-image: url(img2/talk.jpg);
   background-size: cover;
   background-position: center;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .bg6 {
-  background-image: url(img2/write.jpg);
+  background-image: url(img2/webcamp-mother.png);
   background-size: cover;
   background-position: center;
 }
