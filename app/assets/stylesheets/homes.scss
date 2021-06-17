@@ -155,3 +155,31 @@ footer {
   background-size: cover;
   background-position: center;
 }
+
+.strength-group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.strength {
+  width: 320px;
+  height: auto;
+}
+
+.strength-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.strength-title {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.fas {
+  font-size: 60px;
+}
