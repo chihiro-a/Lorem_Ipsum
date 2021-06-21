@@ -92,12 +92,12 @@ footer {
   background: #EC715F;
 }
 
-#portfolio {
+#portfolio,#profile {
   background-color: #ECEFF1;
 }
 
 .heading-text {
-  font-size: 16px;
+  font-size: 20px;
   color: #000000;
   padding: 30px 0 30px 0;
 }
@@ -156,12 +156,16 @@ footer {
   background-position: center;
 }
 
+#feature {
+  margin: 0 auto;
+}
+
 .strength-group {
   display: flex;
   flex-wrap: wrap;
-  width: 980px;
   margin: 0 auto;
   padding-bottom: 90px;
+  width: 980px;
 }
 
 .strength {
@@ -187,4 +191,42 @@ footer {
 
 .fas {
   font-size: 60px;
+}
+
+.profile-group {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+
+.left-content {
+  width: 512px;
+}
+
+.my-face {
+  background-image: url(img2/my-icon.jpg);
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.right-content {
+  width: 512px;
+  text-align: left;
+}
+
+.description-title {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.description-text:nth-child(1) {
+  padding-bottom: 20px;
+}
+
+.description-text {
+  font-size: 16px;
 }
